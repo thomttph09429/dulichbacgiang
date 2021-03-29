@@ -1,0 +1,43 @@
+.dac-san-title{
+    font-size: 20pt;
+
+}
+.dac-san-titles{
+    text-align: center;
+
+
+}
+.dac-san-content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 50px;
+}
+.hr{
+    background-color: rgb(77, 111, 221);
+    padding: 5px 0px;
+    margin: 10px 0px;
+}
+.separated{
+    display: grid;
+    grid-template-columns:1fr 8fr
+}
+.button-left{
+    background: #456BD9;
+  border: 0.1875em solid rgb(2, 42, 150);
+  border-radius: 50%;
+  /* box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125); */
+  height: 4em;
+  width: 4em;
+}
+.right-aside-title{
+    font-size: 17pt;
+}
+.dac-san-content-right{
+    padding-left: 140px;
+}
+.text:hover{
+    color: wheat;
+}
+.text{
+    color: wheat;
+}

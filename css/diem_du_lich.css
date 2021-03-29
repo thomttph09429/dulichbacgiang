@@ -1,0 +1,21 @@
+/* .diem-du-lich-content-top{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+} */
+.list-item-img{
+    height: 300px;
+    width: 500px;
+}
+.scrollspy-example{
+}
+.diem-du-lich-content{
+    margin-top: 50px;
+}
+.list-group-item:hover{
+    background-color: rgb(64, 118, 219);
+    color: rgb(252, 252, 252);
+    
+}
+.list-group-item{
+    color: cornflowerblue;
+}

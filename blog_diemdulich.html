@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/diem_du_lich.css">
+
+    <link rel="stylesheet" href="./Font-Awesomecss/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/css_hom.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="header_top">
+                <div class="banner">
+                    <img src="./anh/banner.PNG" alt="">
+
+                </div>
+                <div class="find">
+                    <form>
+                        <input type="text" name="search" placeholder="tìm kiếm..">
+                    </form>
+                </div>
+                <div class="header-social">
+                    <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                </div>
+
+
+            </div>
+            <div class="header-bottom">
+                <div class="nav">
+                    <a href="blog_homes.html" class="link">Trang chủ</a>
+                    <a href="blog_gioithieu.html" class="link">Giới thiệu</a>
+                    <a href="blog_diemdulich.html" class="link">Điểm du lịch</a>
+                    <a href="blog_dac_san.html" class="link">Đặc sản</a>
+                    <a href="blog_map.html" class="link">Chỉ đường</a>
+                    <a href="blog_lien_he.html" class="link">Liên hệ</a>
+
+
+                </div>
+
+
+            </div>
+        </header>
+        <main>
+            <div class="slideshow">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./anh/song.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./anh/thoha.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./anh/yentu.jpeg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="diem-du-lich-content">
+                <div>
+
+                </div>
+                <div class="diem-du-lich-content-top">
+                    <div id="list-example" class="list-group">
+                        <a class="list-group-item" href="#list-item-1">Kỳ vỹ suối Mỡ Bắc
+                            Giang</a>
+                        <a class="list-group-item" href="#list-item-2">Chạm vào mây Tây Yên
+                            Tử</a>
+                        <a class="list-group-item" href="#list-item-3">Lên Cấm Sơn theo câu
+                            hát</a>
+                        <a class="list-group-item" href="#list-item-4">Bắc Giang - Hồ Khuôn
+                            Thần</a>
+                    </div>
+
+                    <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+                        <a href="#card-text">
+                            <h4 id="list-item-1"><strong>Kỳ vỹ suối Mỡ Bắc Giang</strong></h4>
+                        </a>
+                        <div class="card mb-3">
+                            <img src="./anh/suoi_mo.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text" id="card-text">Nằm sâu trong sườn núi trùng điệp thuộc phía Tây Yên
+                                    Tử, Khu du
+                                    lịch Suối Mỡ thuộc địa phận xã Nghĩa Phương, huyện Lục Nam (Bắc Giang) có diện tích
+                                    trên 1000 ha, danh thắng này có phong cảnh thiên nhiên nguyên sơ, kỳ vỹ, hội tụ hai
+                                    yếu tố về du lịch sinh thái và du lịch tâm linh. <br> <br> <br>
+
+                                    Đến Khu du lịch suối Mỡ khách tham quan có dịp tìm hiểu huyền tích về công chúa Quế
+                                    Mỵ Nương (thời vua Hùng Định Vương thứ IX) tương truyền là người đã đưa dòng nước
+                                    mát về chống hạn hán, đem lại mùa màng ấm no, trù phú, hạnh phúc với người dân. Ghi
+                                    nhớ công ơn của bà, dân làng đặt tên con suối ấy là Suối Mỡ (Suối Mẫu) và lập đền
+                                    thờ bà ở đất này. Hằng năm vào ngày 30/3 và mồng 1, mồng 2/4 Âm lịch nhân dân địa
+                                    phương lại tổ chức Lễ hội để bày tỏ lòng biết ơn với công chúa Quế Mỵ Nương và mong
+                                    ước cho mùa màng tốt tươi. <br>
+
+                                    Men theo con đường uốn lượn dẫn lên suối Mỡ, du khách tới những thắng tích như chùa
+                                    Hòn Trứng, chùa Hồ Bấc, đỉnh Rông khế, đỉnh Tròi Xoan, vọng Ngắm trăng, hồ Suối Mỡ,
+                                    thác Tràn ly, thác Thùm Thùm - con thác cao nhất trong hệ thống suối thác được khoác
+                                    trên mình tấm áo choàng bằng nước như từ trên trời đổ xuống. Đứng trên đỉnh thác
+                                    phóng tầm mắt ra xa du khách sẽ bao quát được toàn bộ quần thể thắng cảnh nơi đây.
+                                    Một không gian vừa hùng vĩ vừa nên thơ, đem đến du khách một cảm giác dễ chịu, thư
+                                    thái. <br> <br> <br>
+
+
+
+                                    Ấn tượng với mỗi du khách tham quan suối Mỡ đó là vẻ đẹp nguyên sơ của rừng cây bạt
+                                    ngàn xanh tươi, những dòng nước trong trẻo uốn mình như dải lụa từ trong núi chảy
+                                    ra... <br>
+
+
+
+                                    Sự kiến tạo tự nhiên của địa chất với những phiến đá lớn xếp chồng lên nhau theo
+                                    nhiều hình dáng, độ dốc đột xuất tạo ra nhiều thác nước lớn, nhỏ. <br>
+
+
+
+                                    Thảm thực vật ở đây rất xanh tốt có nhiều loại cây như Tùng, Bách, Thông...mọc xen
+                                    kẽ, giúp cho không khí suối Mỡ rất trong lành, thoáng đãng.
+
+
+
+                                    Phong cảnh thiên nhiên suối Mỡ. <br>
+
+
+
+                                    Một góc thác Tràn Ly một trong ba thác lớn ở suối Mỡ.
+
+
+
+
+
+                                    Khu du lịch còn lưu giữ nhiều di tích lịch sử thời nhà Trần trong công cuộc chống
+                                    giặc ngoại xâm bảo vệ đất nước như đấu đóng quân, bãi đá mài gương, khu quần ngựa...
+
+
+
+                                    Suối Mỡ là điểm đến lý tưởng với du khách, khi muốn tìm đến sự thư thái, yên ả,
+                                    thưởng lãm cảnh nguyên sơ, kỳ vỹ của núi rừng.
+
+
+
+                                    Những năm gần đây, UBND tỉnh đã phê duyệt Quy hoạch “Xây dựng vùng bảo tồn tổng thể
+                                    hệ thống di tích và danh thắng tỉnh Bắc Giang” trong đó Khu du lịch suối Mỡ là một
+                                    trọng điểm để phát triển du lịch sinh thái.
+
+
+
+                                    Với những lợi thế thiên nhiên ban tặng, cùng sự quan tâm phát triển của tỉnh Bắc
+                                    Giang, điều đó mở ra những cơ hội giúp người dân ở Khu du lịch suối Mỡ có thêm điều
+                                    kiện phát triển kinh tế, xã hội, giao lưu văn hóa.
+
+
+
+                                    Bên cạnh việc bảo tồn, phát huy các giá trị thiên nhiên ưu đãi, việc quy hoạch sử
+                                    dụng suối Mỡ đang đặt ra yêu cầu cần đảm bảo sự hài hòa giữa phát triển du lịch và
+                                    khai thác nguồn nước phục vụ nông nghiệp, để phát triển bền vững nguồn tài nguyên
+                                    thiên nhiên quý giá, phục vụ nhu cầu chính đáng cho lợi ích con người.</p>
+                            </div>
+                        </div>
+
+
+                        <a href="#card-text">
+                            <h4 id="list-item-2">Chạm vào mây Tây Yên Tử</h4>
+                        </a>
+                        <div class="card mb-3">
+                            <img src="./anh/slide.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text" id="card-text">
+                                    Với du khách ưa trải nghiệm, khám phá thì việc chạm tay vào mây nơi non thiêng Yên
+                                    Tử - dù sườn phía đông hay phía tây - đều đem lại cảm xúc khó quên. Bằng việc phục
+                                    dựng và đặt lại đúng vị thế của con đường hoằng dương Phật pháp của thiền phái Trúc
+                                    Lâm bên sườn tây núi Yên Tử, tỉnh Bắc Giang bước đầu khai thác hiệu quả thế mạnh các
+                                    di sản văn hóa tâm linh, tạo lập thương hiệu du lịch riêng. <br> <br> <br>
+                                    <strong>“Theo dấu bước chân Phật hoàng”..</strong>
+
+                                    Từ TP Bắc Giang, chỉ mất hơn một giờ chạy xe, chúng tôi đã bước vào Khu Du lịch tâm
+                                    linh - sinh thái Tây Yên Tử (thuộc thôn Đồng Thông, xã Tuấn Mậu, huyện Sơn Động),
+                                    vừa khánh thành giai đoạn 1. Vào chùa Hạ, điểm nhấn đầu tiên để chiêm bái tượng đồng
+                                    của Tam tổ Trúc Lâm trong chùa Hạ (tượng Phật hoàng Trần Nhân Tông trong tư thế ngồi
+                                    nặng 700 kg; hai pho tượng Pháp Loa và Huyền Quang trong tư thế đứng, mỗi pho nặng
+                                    hơn 300 kg), đã có cảm giác khác, vì gió ào ào nơi ngôi chùa rất rộng. Rồi chỉ mất
+                                    10 phút đi cáp treo, từ chùa Hạ chúng tôi đã tới chùa Thượng. Cách đây bốn tháng,
+                                    khi chưa có cáp treo, du khách muốn lên chùa Đồng từ sườn phía tây (huyện Sơn Động)
+                                    phải mất nửa ngày xuyên đường mòn luồn rừng với nhiều đoạn dốc dựng đứng rất nguy
+                                    hiểm. <br> <br>
+
+                                    Ngồi trên ca-bin cáp treo, suốt chiều dài hơn 2 km, được phóng tầm mắt vào khung
+                                    cảnh thiên nhiên hùng vĩ của Tây Yên Tử từ trên cao, như được hòa mình giữa mây núi
+                                    và những cánh rừng nguyên sinh để cảm nhận đến tận cùng sự yên bình mà hùng vĩ, bề
+                                    thế mà uy nghi của non thiêng Yên Tử. Các công trình Khu Du lịch tâm linh - sinh
+                                    thái Tây Yên Tử như bồng bềnh trong mây núi, cảnh vật như huyền ảo hơn. Không khí
+                                    trong lành, cái nắng chói đầu hạ khá lý tưởng để ngắm trọn vẹn quang cảnh chung
+                                    quanh từ đỉnh núi.
+
+                                    Nhớ lại lời giới thiệu của ông Trần Văn Dũng, Phó Giám đốc Sở Văn hóa, Thể thao và
+                                    Du lịch Bắc Giang: Tây Yên Tử là một vùng rừng núi hoang sơ rộng lớn với nhiều thắng
+                                    cảnh đẹp, di tích lịch sử văn hóa nổi tiếng, trải dài trên một hành trình cả trăm
+                                    cây số. Quá trình nghiên cứu, khảo cổ đã cho thấy, nếu như sườn đông Yên Tử là nơi
+                                    Phật hoàng Trần Nhân Tông tu hành và là nơi lưu giữ xá lị của ngài sau khi viên
+                                    tịch, thì sườn tây Yên Tử lại là con đường hoằng dương Phật pháp của ngài. Tỉnh Bắc
+                                    Giang xây dựng Khu du lịch tâm linh - sinh thái Tây Yên Tử, tái hiện con đường tâm
+                                    linh theo bước chân Phật hoàng Trần Nhân Tông chính là phát huy những giá trị văn
+                                    hóa đã được tích tụ từ hàng trăm năm, mở ra “con đường tâm linh” kết nối bản sắc
+                                    nghìn năm văn hóa Phật giáo vùng tây Yên Tử… <br> <br> <br>
+
+                                    Chùa Thượng nằm ở độ cao 800 m (thấp hơn chùa Đồng 268 m), cách chùa Đồng 700 m theo
+                                    đường chim bay. Chùa Thượng là đích đến của hành trình leo núi và thực hành thiền
+                                    của Thiền phái Trúc Lâm với ba pho tượng đồng uy nghi của Trúc Lâm Tam tổ (gồm tượng
+                                    Phật hoàng Trần Nhân Tông nặng 200 kg, tượng Sư tổ Pháp Loa và Tam tổ Huyền Quang,
+                                    mỗi pho nặng 130 kg) được rước từ chùa Vĩnh Nghiêm lên đầu tháng Giêng năm Kỷ Hợi. Ở
+                                    đây, đã có cảm giác như chạm được tay vào mây Tây Yên Tử! Từ vọng lâu trên chùa
+                                    Thượng, có thể chiêm ngưỡng cả vùng non thiêng, với những dãy núi non trùng điệp và
+                                    chùa Đồng ẩn hiện trong mây nơi đỉnh Phù Vân. Từ đó leo bộ thêm khoảng 30 phút là
+                                    tới chùa Đồng, để rồi được chiêm ngưỡng mầu xanh mênh mông của biển Hạ Long ở phía
+                                    đông, và một mầu xanh khác của bạt ngàn cây trái Bắc Giang ở phía tây. Sườn tây dốc
+                                    đứng, hiểm trở hơn, có lẽ vì thế mà có nhiều cánh rừng nguyên sinh còn thưa dấu chân
+                                    người và nhiều thác nước, suối từ đỉnh non thiêng Yên Tử chảy xuống, tạo phong cảnh
+                                    đẹp như: thác Gót, thác Ba Tia, Hồ Tiên, Ao Vua, suối Nước Vàng,... <br> <br>
+
+                                    Ông Lê Minh Ngọc, Phó trưởng Ban quản lý dự án Khu du lịch tâm linh - sinh thái Tây
+                                    Yên Tử cho biết: Đến hết tháng 4-2019, khu du lịch đã phục vụ hơn 100 nghìn lượt du
+                                    khách đi cáp treo. Hiện nay, hết mùa lễ hội xuân, bước vào mùa hè, nhưng mỗi ngày
+                                    khu du lịch vẫn thu hút trung bình 200 lượt du khách đến thưởng ngoạn. Việc xây dựng
+                                    và phục dựng các di tích chùa ở Tây Yên Tử đang tiếp tục thực hiện theo lộ trình.
+                                    Hiện nay, chùa Hạ và chùa Thượng đều đã khánh thành. Kinh phí xây dựng chùa đều từ
+                                    nguồn vốn xã hội hóa, do Hội Phật giáo doanh nghiệp và người dân hưng công đóng góp.
+                                    Chùa Trình, chùa Trung sẽ tiếp tục được xây dựng từ nay đến năm 2021, và tất cả sẽ
+                                    hoàn thiện vào năm 2025... Song song với đó, chủ đầu tư Khu du lịch tâm linh - sinh
+                                    thái Tây Yên Tử tiếp tục đầu tư, thi công các hạng mục giai đoạn 2 của dự án với hệ
+                                    thống hạ tầng kỹ thuật, các công trình dịch vụ, hệ thống giao thông, cáp treo… đồng
+                                    bộ để khai thác du lịch văn hóa tâm linh theo các điểm chùa.
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <a href="#card-text">
+                            <h4 id="list-item-3">Lên Cấm Sơn theo câu hát
+                            </h4>
+                        </a>
+                        <div class="card mb-3">
+                            <img src="./anh/cam_son.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text" id="card-text">
+                                    <strong> Hồ Cấm Sơn thuộc địa bàn bốn xã: Sơn Hải, Hộ Đáp, Tân Sơn và Cấm Sơn của
+                                        huyện Lục
+                                        Ngạn (tỉnh Bắc Giang).
+
+                                        Nằm ở độ cao khoảng 300m so với mực nước biển, hồ Cấm Sơn là một trong những
+                                        công
+                                        trình đại thủy nông lớn của cả nước, có nhiệm vụ điều tiết, cung cấp nước tưới
+                                        cho
+                                        sản xuất nông nghiệp ở nhiều địa phương thuộc tỉnh Bắc Giang và huyện Hữu Lũng
+                                        (tỉnh
+                                        Lạng Sơn).</strong> <br> <br>
+                                    Hồ Cấm Sơn có diện tích bề mặt khoảng 2.650 ha. Vào mùa mưa, nước dâng lên, mặt hồ
+                                    có thể lên đến 3.000 ha với nhiều đảo lớn nhỏ. Vào mùa khô khô, nước cạn, ven hồ
+                                    hiện ra những bãi bồi phù sa, được người dân địa phương tận dụng để hoa màu đan xen.
+                                    <br> <br>
+
+                                    Mặt hồ Cấm Sơn xanh biếc phẳng lặng, bao quanh là những dãy núi vươn cao trùng điệp,
+                                    quyện cùng trời xanh mây trắng, vẽ nên bức tranh sơn thủy hữu tình, làm mê mẩn tâm
+                                    hồn bao du khách.
+
+                                    Đến đây, du khách có thể đi thuyền ngắm cảnh lòng hồ, dừng chân khám phá đảo hoang,
+                                    chèo thuyền câu cá hay lên thăm bản làng tìm hiểu về cuộc sống, sinh hoạt văn hóa
+                                    của đồng bào dân tộc.
+
+                                    Sau khi vui chơi, ngắm cảnh, du khách có dịp thưởng thức những món ăn đặc sản của
+                                    vùng hồ như: Tôm, cá, gà đồi nướng, thịt lợn quay thơm phức. <br> <br> <br>
+
+
+
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#card-text">
+                            <h4 id="list-item-4">Bắc Giang - Hồ Khuôn Thần</h4>
+                        </a>
+                        <div class="card mb-3">
+                            <img src="./anh/cam_son.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text" id=" card-text">
+                                    <strong> HỒ KHUÔN THẦN NÉT THANH BÌNH, DUYÊN DÁNG CHỐN SƠN TRANG.
+                                        Nằm yên ả, thanh bình và duyên dáng giữa ngút ngàn thông reo và trập trùng những
+                                        dãy đồi vải thiều xanh miên man cùng khoảng trời trong xanh thoáng đạt in dấu
+                                        mặt hồ trong biếc, đó là những điểm nhấn riêng có của hồ Khuôn Thần, huyện Lục
+                                        Ngạn, tỉnh Bắc Giang.
+                                    </strong> <br> <br>
+                                    Nằm cách thành phố Bắc Giang khoảng 50 km và cách Hà Nội khoảng 100 km về phía Đông
+                                    Bắc, hồ Khuôn Thần thuộc xã Kiên Lao, huyện Lục Ngạn, tỉnh Bắc Giang với diện tích
+                                    rộng khoảng 240 ha, được bao bọc bởi những rừng thông, chàm, keo tai tượng tươi tốt
+                                    quanh năm. Lòng hồ có 5 đảo nhỏ là những vùng đồi bát úp nổi lên giữa làn nước trong
+                                    xanh, các đảo đều được trồng thông có tuổi từ 15 – 20 năm, cùng với đó là vạt rừng
+                                    rộng có diện tích khoảng 800 ha, trong đó có 300 ha rừng tự nhiên và 500 ha là rừng
+                                    trồng, rừng tái sinh và đồng cỏ.<br> <br>
+                                    Đến Khuôn Thần, du khách có thể thả hồn trên du thuyền cảm nhận sự mênh mông, tĩnh
+                                    lặng của mặt hồ, ngắm cảnh trời mây, non nước. Đặc biệt, vào mùa mưa, du khách có
+                                    thể quan sát nước chảy từ đỉnh đập Khuôn Thần đổ ào ào xuống thung lũng ven hồ.
+
+                                    Điểm dừng chân đầu tiên du khách sẽ bắt gặp là bạt ngàn màu xanh của rừng, màu xanh
+                                    của trời mây, non nước… Vượt qua những sườn dốc thấp, ta gặp một không gian bao la
+                                    của hồ nước. Cảnh đẹp thiên nhiên của Khuôn Thần hết sức kỳ thú, mang lại một môi
+                                    trường sinh thái trong lành, một cảnh quan giao hòa giữa khí - trời - đất.
+
+                                    Tại đây, du khách sẽ được đắm mình trong một cảnh sắc thiên nhiên còn hoang sơ,
+                                    huyền ảo. Được bồng bềnh trên những con thuyền dạo ngắm cảnh sắc trên mặt hồ. Lên
+                                    tới đỉnh đập nước hồ Khuôn Thần, du khách có thể quan sát một khung cảnh mênh mông,
+                                    bao la thật hùng vĩ và thơ mộng, thấy được cảnh quan trùng điệp của núi rừng mờ xanh
+                                    hùng vĩ. <br> <br> <br>
+
+
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+
+            <div class="footer-top">
+                <div class="left">
+                    <span>DU LỊCH BẮC GIANG</span><br>
+                    <span>Địa chỉ: Nam Dương- Lục Ngạn- Bắc Giang</span> <br>
+                    <span>Điện thoại: 0326200393</span> <br>
+                    <span>Email: truongthithom1999@gmail.com</span><br>
+                    <span>ahihi</span><br>
+
+                </div>
+                <div class="mid">
+                    <div class="mid-text">
+                        <span>kết nối với me</span> <br>
+                        <div class="header-socials">
+                            <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-youtube"></i></a>
+                            <a href="#"><i class="fa fa-google"></i></a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="right">
+                    <span>Danh mục nổi bật</span><br>
+                    <a href="#">giới thiệu</a><br>
+                    <a href="#">liên hệ</a><br>
+                    <a href="#">danh thắng</a><br>
+                    <a href="#">đặc sản</a><br>
+
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+                <div class="aside-left">
+                    <p>@2020 Du lịch Bắc Giang. Tất cả các quyền đã được đăng ký.
+                    </p>
+                </div>
+                <div class="aside-right">
+                    <p>thiết kế website bởi Ngọc Thơm </p>
+
+                </div>
+
+            </div>
+
+        </footer>
+    </div>
+</body>
+
+</html>
